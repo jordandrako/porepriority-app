@@ -21,14 +21,14 @@ class NotificationClass {
 
 
   var androidSpecificsDueDate = notifs.AndroidNotificationDetails(
-      "Vikunja1",
+      "PorePriority1",
       "Due Date Notifications",
       channelDescription: "description",
       icon: 'vikunja_notification_logo',
       importance: notifs.Importance.high
   );
   var androidSpecificsReminders = notifs.AndroidNotificationDetails(
-      "Vikunja2",
+      "PorePriority2",
       "Reminder Notifications",
       channelDescription: "description",
       icon: 'vikunja_notification_logo',

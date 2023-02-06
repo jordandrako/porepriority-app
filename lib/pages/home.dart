@@ -93,7 +93,7 @@ class HomePageState extends State<HomePage> with AfterLayoutMixin<HomePage> {
 
     return new Scaffold(
       appBar: AppBar(
-        title: new Text(_currentNamespace?.title ?? 'Vikunja'),
+        title: new Text(_currentNamespace?.title ?? 'PorePriority'),
         actions: _currentNamespace == null
             ? null
             : <Widget>[

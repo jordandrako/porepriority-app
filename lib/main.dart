@@ -82,7 +82,7 @@ class VikunjaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Vikunja',
+      title: 'PorePriority',
       theme: buildVikunjaTheme(),
       darkTheme: buildVikunjaDarkTheme(),
       scaffoldMessengerKey: VikunjaGlobal.of(context).snackbarKey,

@@ -54,7 +54,7 @@ class _LoginPageState extends State<LoginPage> {
 
   @override
   Widget build(BuildContext ctx) {
-    Client client = VikunjaGlobal.of(context).client;      
+    Client client = VikunjaGlobal.of(context).client;
 
     return Scaffold(
       body: Center(
@@ -76,7 +76,7 @@ class _LoginPageState extends State<LoginPage> {
                             ? AssetImage('assets/vikunja_logo_full_white.png')
                             : AssetImage('assets/vikunja_logo_full.png'),
                         height: 85.0,
-                        semanticLabel: 'Vikunja Logo',
+                        semanticLabel: 'PorePriority Logo',
                       ),
                     ),
                     Padding(
